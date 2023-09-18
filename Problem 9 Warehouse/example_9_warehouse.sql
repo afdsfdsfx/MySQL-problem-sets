@@ -1,4 +1,4 @@
--- Practice problem joining multiple tables in a single atabase from Google Data Analytics on Coursera
+-- Practice problem creating complex queries by Google Data Analytics on Coursera
 
 CREATE DATABASE warehouse_db;
 USE warehouse_db;

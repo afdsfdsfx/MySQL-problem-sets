@@ -44,6 +44,11 @@ ALTER TABLE songs
     REFERENCES albums(id);
 
 
+-- --------------------------------------------------------------
+-- Run dataset.sql to add data before running commands below ----
+-- --------------------------------------------------------------
+
+
 --@block: Problem 2: Select only the Names of all the Bands
 
 -- Change the name of the column the data returns to `Band Name`

@@ -1,8 +1,8 @@
 --@block: Creating a database
-CREATE DATABASE sql_lectures;
+CREATE DATABASE student_db;
 
 --@block: Using the database created
-USE sql_lectures;
+USE student_db;
 
 --@block: Creating a sample table
 CREATE TABLE student(
@@ -73,7 +73,7 @@ RENAME TO
 SELECT * FROM freshmen;
 
 --@block: Renaming it back
-USE sql_lectures;
+USE student_db;
 
 ALTER TABLE
     freshmen

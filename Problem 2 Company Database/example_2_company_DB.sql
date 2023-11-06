@@ -1,3 +1,9 @@
+--@block: Create database
+CREATE DATABASE company_db;
+
+--@block: Using the database created
+USE company_db;
+
 --@block: Create required table as normal
 CREATE TABLE employee (
   emp_id INT PRIMARY KEY,
@@ -121,7 +127,7 @@ INSERT INTO works_with VALUES(105, 406, 130000);
 
 
 --@block: Find the names of all employees who have sold over 30,000 to a single client 
-USE sql_lectures;
+USE company_db;
 
 SELECT
   employee.emp_id AS 'EID', employee.first_name AS 'First Name', employee.last_name AS 'Last Name'
